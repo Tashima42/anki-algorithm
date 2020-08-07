@@ -23,14 +23,23 @@ const wordsArray = []
 const getNewWords = (arrayName) => {
     const difficultiesArray = ['again', 'good', 'easy']
     let newWordObject = {}
+    let newWordId = arrayName.length + 1
 
     newWordObject.word = readlineSync.question('Word: ');
     const difficultiesIndex = readlineSync.keyInSelect(difficultiesArray, 'Difficulty: ');
     newWordObject.difficulty = difficultiesArray[difficultiesIndex]
+    newWordObject.id = newWordId
 
-    return newWordObject;
+    wordsArray.push(newWordObject)
 }
 
-wordsArray.push(getNewWords(wordsArray))
+const repeatGetNewWords = (arrayName) => {
+    while (readlineSync.keyInYN('Add new word?')){
+        getNewWords(arrayName)
+    }
+    return;
+}
+
+repeatGetNewWords(wordsArray)
 
 console.log(wordsArray)
