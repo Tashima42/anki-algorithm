@@ -1,26 +1,9 @@
 const readlineSync = require('readline-sync')
+const fs = require('fs')
 
 const wordsArray = []
+let wordsObject
 
-/* Array sructure
-[
-    {
-        word: 'word1',
-        difficulty: 'easy',
-        id: 1
-    },
-    {
-        word: 'word2',
-        difficulty: 'good',
-        id: 2
-    },
-    { 
-        word: 'word3',
-        difficulty: 'again',
-        id: 3
-    }
-]
-*/
 const generateId = () => '_' + Math.random().toString(36).substr(2, 9)  //https://gist.github.com/gordonbrander/2230317
 
 const getNewWords = (arrayName) => {
@@ -37,7 +20,7 @@ const getNewWords = (arrayName) => {
 }
 
 const repeatGetNewWords = (arrayName) => {
-    while (readlineSync.keyInYN('Add new word?')){
+    while (readlineSync.keyInYN('Add new word?')) {
         getNewWords(arrayName)
     }
     return;
@@ -45,4 +28,15 @@ const repeatGetNewWords = (arrayName) => {
 
 repeatGetNewWords(wordsArray)
 
-console.log(wordsArray)
+wordsObject = wordsArray
+jsonWords = JSON.stringify(wordsObject)
+
+fs.writeFile("words.json", jsonWords, 'utf8', function (err) {
+    if (err) {
+        console.log("An error occured while writing JSON Object to File.");
+        return console.log(err);
+    }
+ 
+    console.log("JSON file has been saved.");
+})
+console.log(jsonWords)
