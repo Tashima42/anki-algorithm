@@ -6,24 +6,27 @@ const wordsArray = []
 [
     {
         word: 'word1',
-        difficulty: 'easy'
+        difficulty: 'easy',
+        id: 1
     },
     {
         word: 'word2',
-        difficulty: 'good'
+        difficulty: 'good',
+        id: 2
     },
     { 
         word: 'word3',
-        difficulty: 'again'
+        difficulty: 'again',
+        id: 3
     }
 ]
 */
-
+const generateId = () => '_' + Math.random().toString(36).substr(2, 9)  //https://gist.github.com/gordonbrander/2230317
 
 const getNewWords = (arrayName) => {
     const difficultiesArray = ['again', 'good', 'easy']
     let newWordObject = {}
-    let newWordId = arrayName.length + 1
+    let newWordId = generateId()
 
     newWordObject.word = readlineSync.question('Word: ');
     const difficultiesIndex = readlineSync.keyInSelect(difficultiesArray, 'Difficulty: ');
