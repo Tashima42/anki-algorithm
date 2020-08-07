@@ -2,7 +2,6 @@ const readlineSync = require('readline-sync')
 const fs = require('fs')
 
 const wordsArray = []
-let wordsObject
 
 const generateId = () => '_' + Math.random().toString(36).substr(2, 9)  //https://gist.github.com/gordonbrander/2230317
 
@@ -28,8 +27,7 @@ const repeatGetNewWords = (arrayName) => {
 
 repeatGetNewWords(wordsArray)
 
-wordsObject = wordsArray
-jsonWords = JSON.stringify(wordsObject)
+jsonWords = JSON.stringify(wordsArray)
 
 fs.writeFile("words.json", jsonWords, 'utf8', function (err) {
     if (err) {

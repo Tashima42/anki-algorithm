@@ -1,17 +1,12 @@
 [
     {
-        "word": "oi",
-        "difficulty": "good",
-        "_id": "_bq0m2lv4c"
-    },
-    {
-        "word": "test",
-        "difficulty": "easy",
-        "_id": "_15cgf5fu6"
-    },
-    {
         "word": "asd",
+        "difficulty": "again",
+        "_id": "_2cxqsl5hw"
+    },
+    {
+        "word": "gdsa",
         "difficulty": "good",
-        "_id": "_18zofhbe3"
+        "_id": "_7g0emy689"
     }
 ]
