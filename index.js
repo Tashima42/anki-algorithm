@@ -14,7 +14,7 @@ const getNewWords = (arrayName) => {
     newWordObject.word = readlineSync.question('Word: ');
     const difficultiesIndex = readlineSync.keyInSelect(difficultiesArray, 'Difficulty: ');
     newWordObject.difficulty = difficultiesArray[difficultiesIndex]
-    newWordObject.id = newWordId
+    newWordObject._id = newWordId
 
     wordsArray.push(newWordObject)
 }
