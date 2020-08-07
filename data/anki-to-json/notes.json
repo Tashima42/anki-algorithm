@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1365293212968,
+    "flds": "alanine\u001fala\u001fa\u001f<img src=\"paste-51917564674052.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "alanine",
+    "media": [
+      "aste-51917564674052.jpg"
+    ],
+    "front": "alanine",
+    "back": "alanine\nala\na\n\nnonpolar"
+  },
+  {
+    "id": 1365293787615,
+    "flds": "arginine\u001farg\u001fr\u001f<img src=\"paste-83691732729860.jpg\" />\u001fpositive\u001f\u001f12.5",
+    "sfld": "arginine",
+    "media": [
+      "aste-83691732729860.jpg"
+    ],
+    "front": "arginine",
+    "back": "arginine\narg\nr\n\npositive\n\n12.5"
+  },
+  {
+    "id": 1365293821056,
+    "flds": "asparagine\u001fasn\u001fn\u001f<img src=\"paste-89627377532932.jpg\" />\u001funcharged polar\u001f\u001f",
+    "sfld": "asparagine",
+    "media": [
+      "aste-89627377532932.jpg"
+    ],
+    "front": "asparagine",
+    "back": "asparagine\nasn\nn\n\nuncharged polar"
+  },
+  {
+    "id": 1365294480103,
+    "flds": "aspartate\u001fasp\u001fd\u001f<img src=\"paste-85774791868420.jpg\" />\u001fnegative\u001f\u001f3.9",
+    "sfld": "aspartate",
+    "media": [
+      "aste-85774791868420.jpg"
+    ],
+    "front": "aspartate",
+    "back": "aspartate\nasp\nd\n\nnegative\n\n3.9"
+  },
+  {
+    "id": 1365294824680,
+    "flds": "cysteine\u001fcys\u001fc\u001f<img src=\"paste-74633646702596.jpg\" />\u001fnonpolar\u001f\u001f8.4",
+    "sfld": "cysteine",
+    "media": [
+      "aste-74633646702596.jpg"
+    ],
+    "front": "cysteine",
+    "back": "cysteine\ncys\nc\n\nnonpolar\n\n8.4"
+  },
+  {
+    "id": 1365294919495,
+    "flds": "glutamate\u001fglu\u001fe\u001f<img src=\"paste-87368224735236.jpg\" />\u001fnegative\u001f\u001f4.1",
+    "sfld": "glutamate",
+    "media": [
+      "aste-87368224735236.jpg"
+    ],
+    "front": "glutamate",
+    "back": "glutamate\nglu\ne\n\nnegative\n\n4.1"
+  },
+  {
+    "id": 1365295195142,
+    "flds": "glutamine\u001fgln\u001fq\u001f<img src=\"paste-92474940850180.jpg\" />\u001funcharged polar\u001f\u001f",
+    "sfld": "glutamine",
+    "media": [
+      "aste-92474940850180.jpg"
+    ],
+    "front": "glutamine",
+    "back": "glutamine\ngln\nq\n\nuncharged polar"
+  },
+  {
+    "id": 1365295215815,
+    "flds": "glycine\u001fgly\u001fg\u001f<img src=\"paste-50599009714180.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "glycine",
+    "media": [
+      "aste-50599009714180.jpg"
+    ],
+    "front": "glycine",
+    "back": "glycine\ngly\ng\n\nnonpolar"
+  },
+  {
+    "id": 1365295292280,
+    "flds": "histidine\u001fhis\u001fh\u001f<img src=\"paste-80908593922052.jpg\" />\u001fpositive\u001f\u001f6.0",
+    "sfld": "histidine",
+    "media": [
+      "aste-80908593922052.jpg"
+    ],
+    "front": "histidine",
+    "back": "histidine\nhis\nh\n\npositive\n\n6.0"
+  },
+  {
+    "id": 1365295400449,
+    "flds": "isoleucine\u001file\u001fi\u001f<img src=\"paste-55443732824068.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "isoleucine",
+    "media": [
+      "aste-55443732824068.jpg"
+    ],
+    "front": "isoleucine",
+    "back": "isoleucine\nile\ni\n\nnonpolar"
+  },
+  {
+    "id": 1365295439110,
+    "flds": "leucine\u001fleu\u001fl\u001f<img src=\"paste-53450867998724.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "leucine",
+    "media": [
+      "aste-53450867998724.jpg"
+    ],
+    "front": "leucine",
+    "back": "leucine\nleu\nl\n\nnonpolar"
+  },
+  {
+    "id": 1365296901217,
+    "flds": "lysine\u001flys\u001fk\u001f<img src=\"paste-82450487181316.jpg\" />\u001fpositive\u001f\u001f10.5",
+    "sfld": "lysine",
+    "media": [
+      "aste-82450487181316.jpg"
+    ],
+    "front": "lysine",
+    "back": "lysine\nlys\nk\n\npositive\n\n10.5"
+  },
+  {
+    "id": 1365297006771,
+    "flds": "methionine\u001fmet\u001fm\u001f<img src=\"paste-70059506532356.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "methionine",
+    "media": [
+      "aste-70059506532356.jpg"
+    ],
+    "front": "methionine",
+    "back": "methionine\nmet\nm\n\nnonpolar"
+  },
+  {
+    "id": 1365297083821,
+    "flds": "phenylalanine\u001fphe\u001ff\u001f<img src=\"paste-58677843197956.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "phenylalanine",
+    "media": [
+      "aste-58677843197956.jpg"
+    ],
+    "front": "phenylalanine",
+    "back": "phenylalanine\nphe\nf\n\nnonpolar"
+  },
+  {
+    "id": 1365297146935,
+    "flds": "proline\u001fpro\u001fp\u001f<img src=\"paste-56646323666948.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "proline",
+    "media": [
+      "aste-56646323666948.jpg"
+    ],
+    "front": "proline",
+    "back": "proline\npro\np\n\nnonpolar"
+  },
+  {
+    "id": 1365297273170,
+    "flds": "serine\u001fser\u001fs\u001f<img src=\"paste-76995878715396.jpg\" />\u001funcharged polar\u001f\u001f",
+    "sfld": "serine",
+    "media": [
+      "aste-76995878715396.jpg"
+    ],
+    "front": "serine",
+    "back": "serine\nser\ns\n\nuncharged polar"
+  },
+  {
+    "id": 1365297366849,
+    "flds": "threonine\u001fthr\u001ft\u001f<img src=\"paste-79280801316868.jpg\" />\u001funcharged polar\u001f\u001f",
+    "sfld": "threonine",
+    "media": [
+      "aste-79280801316868.jpg"
+    ],
+    "front": "threonine",
+    "back": "threonine\nthr\nt\n\nuncharged polar"
+  },
+  {
+    "id": 1365297440177,
+    "flds": "tryptophan\u001ftrp\u001fw\u001f<img src=\"paste-68118181314564.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "tryptophan",
+    "media": [
+      "aste-68118181314564.jpg"
+    ],
+    "front": "tryptophan",
+    "back": "tryptophan\ntrp\nw\n\nnonpolar"
+  },
+  {
+    "id": 1365297500917,
+    "flds": "tyrosine\u001ftyr\u001fy\u001f<img src=\"paste-66649302499332.jpg\" />\u001funcharged polar\u001f\u001f10.5",
+    "sfld": "tyrosine",
+    "media": [
+      "aste-66649302499332.jpg"
+    ],
+    "front": "tyrosine",
+    "back": "tyrosine\ntyr\ny\n\nuncharged polar\n\n10.5"
+  },
+  {
+    "id": 1365297566987,
+    "flds": "valine\u001fval\u001fv\u001f<img src=\"paste-49155900702724.jpg\" />\u001fnonpolar\u001f\u001f",
+    "sfld": "valine",
+    "media": [
+      "aste-49155900702724.jpg"
+    ],
+    "front": "valine",
+    "back": "valine\nval\nv\n\nnonpolar"
+  }
+]

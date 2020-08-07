@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/Tashima42/anki-algorithm.git",
   "author": "Pedro Tashima <pedrotashima42@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "anki-to-json": "^1.0.3",
+    "chalk": "^2.4.2",
+    "node-zip": "^1.1.1",
+    "sql.js": "^1.0.0",
+    "sqlite3": "^4.0.6",
+    "strip-ansi": "^5.2.0"
+  }
 }
